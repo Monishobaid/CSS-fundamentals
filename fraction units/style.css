@@ -1,0 +1,33 @@
+*{
+    background-color: yellowgreen;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,200px);
+    gap: 10px;
+    text-align: center;
+    
+    
+    
+}
+.a{
+    background-color: burlywood;
+
+}
+.b{
+    background-color: aqua;
+}
+.c{
+    background-color: rgb(107, 104, 104);
+}
+.d{
+    background-color: chartreuse;
+
+}
+.e{
+    background-color: chocolate;
+}
+.f{
+    background-color: violet;
+}

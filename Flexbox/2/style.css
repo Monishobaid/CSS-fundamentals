@@ -1,0 +1,36 @@
+*{
+    background-color: rgb(165, 165, 34);
+}
+
+
+.home{
+    color: rgb(165, 165, 34);
+    background-color: rgb(74, 116, 32);
+
+}
+.search{
+    color: rgb(165, 165, 34);
+    background-color: rgb(83, 122, 122);
+}
+.logout{
+    color: rgb(165, 165, 34);
+    background-color: rgb(80, 80, 114);
+    align-self: flex-start;
+}
+
+.container{
+    border: 3px solid #ffcc5c;
+    display: flex;
+    height: 100%;
+    align-items: center;;
+
+
+}
+
+/* .container > div{ */
+    /* flex: 1; */
+/* } */
+
+.container > .search{
+    flex: 2;
+}

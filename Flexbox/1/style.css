@@ -1,0 +1,30 @@
+*{
+    background-color: rgb(165, 165, 34);
+}
+
+
+.home{
+    color: rgb(132, 98, 165);
+    margin-right: auto;
+
+}
+.search{
+    color: rgb(83, 122, 122);
+}
+.logout{
+    color: rgb(80, 80, 114);
+}
+
+.container{
+    border: 5px solid #ffcc5c;
+    display: flex;
+    justify-content: flex-end;
+    /* flex-direction: row; it is default */
+    /* justify-content: space-evenly; */
+    /* flex start means it will start from right hand side */
+    /* Centre will bring div to centre */
+    /* justify-content:space-around; gives space between div */
+
+
+}
+

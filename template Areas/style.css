@@ -1,0 +1,50 @@
+*{
+    background-color: rgb(247, 217, 171);
+    box-sizing: border-box;
+}
+.container{
+    height: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 40px auto 60px;
+    gap: 10px;
+    grid-template-areas: 
+    "m h h h h h h h h h h ."
+    "m c c c c c c c c c c ."
+    "m f f f f f f f f f f .";
+ 
+    
+    
+    
+    
+}
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(247, 217, 171);
+
+}
+.header{
+    grid-area: h;
+    background-color: rgb(109, 129, 238);
+
+}
+.menu{
+    grid-area:m;
+    background-color: rgb(16, 172, 172);
+}
+.content{
+    grid-area: c;
+    
+
+    background-color: rgb(212, 166, 14);
+}
+.footer{
+    background-color: rgb(209, 110, 71);
+    grid-area:f;
+
+
+}

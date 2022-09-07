@@ -1,0 +1,43 @@
+*{
+    background-color: rgb(215, 250, 144);
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-template-rows: repeat(1,100px); /*to fix this issue */
+    grid-auto-rows: 100px;
+
+    gap: 10px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+    
+}
+.container > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(215, 250, 144);
+}
+.a{
+    background-color: rgb(231, 142, 26);
+
+}
+.b{
+    background-color: rgb(14, 167, 167);
+}
+.c{
+    background-color: rgb(107, 104, 104);
+}
+.d{
+    background-color: rgb(86, 163, 9);
+
+}
+.e{
+    background-color: chocolate;
+}
+.f{
+    background-color: rgb(156, 64, 156);
+}
